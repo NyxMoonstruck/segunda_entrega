@@ -1,0 +1,121 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Registrarse</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta enctype="multipart/form-data">
+
+			<link rel="stylesheet" type="text/css" href="../Styles/style_base.css">
+
+			<link rel="stylesheet" type="text/css" href="../Styles/style_one.css">
+
+
+
+
+		</head>
+		<body>
+
+			<header>
+				
+				<!-- esquina superior derecha -->
+				<div class="sup">
+					<a href="#">Registrarse</a>
+					<a href="log_in.html">Conectarse</a>
+					<a href="cart.html">Carro</a>
+				</div>
+
+				<div>
+					<a href="../index.html">
+						<img src="../Images/banner.png" class="banner">
+					</a>
+				
+					<h1 class="banner">E-Games</h1>
+				</div>
+
+				<!-- navegación simple al final del header-->
+				<nav class="sinav">
+					<a href="coming_soon.html">Próximamente</a>
+					<a href="featured.html">Destacados</a>
+					<a href="game_list.html">Catálogo</a>
+				</nav>
+
+
+				
+			</header>
+
+			<main>
+				<h2>Registrarse</h2> 
+				<p>Por favor, complete el formulario para poder registrarse en el sitio. </p>
+				
+				<div class="form">
+					<form>
+						<div >
+							<label>Name</label>
+							<input type="text" name="first_name" required="" maxlength="30" placeholder="Juan" autofocus="" autocomplete="">
+						</div> 
+
+						<div>
+							<label>Apellido</label>
+							<input type="text" name="last_name" required="" maxlength="30" placeholder="Perez" autocomplete="">
+						</div>
+
+						<div>
+							<label>Nombre de Usuario</label>
+							 <input type="text" name="Username" required="" minlength="4" maxlength="24" placeholder="Juanpe02" pattern="[A-Za-z0-9]{4,24}">
+						 </div>
+
+						<div>
+							<label>Edad</label>
+							<input type="number" name="age" placeholder="25" maxlength="2" >	
+						</div>
+
+						<div>
+							<label>País</label>
+							<input type="text" name="country" placeholder="Ecuador">
+						</div>
+
+						<div>
+							<label>E-mail</label>
+							<input type="email" name="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="" placeholder="Juan.Perez@gmail.com" >
+						</div>
+
+						<div>
+							<label>Ingrese una contraseña</label>
+							<input type="password" name="password" required="" pattern="[A-Za-z0-9]{8,24}" minlength="8" maxlength="24" placeholder="*************" data-toggle="tooltip" title="Ingrese 8 a 24 caracteres alfa numéricos">
+						</div>
+
+						<div>
+							<label>Confirme su contraseña</label>
+							<input type="password" name="conf_password" required="" pattern="[A-Za-z0-9]{8,24}" minlength="8" maxlength="24" placeholder="*************" data-toggle="tooltip" title="Las contraseñas deben coincidir">
+						</div>
+						<br>
+
+						<div>
+						 	<input type="reset" name="reset" value="Resetear" class="boton"> 
+						 	<input type="submit" name="registrarse" value="Registrarse" class="boton">
+						</div>
+					</form>
+				</div>
+			</main>
+
+			<footer>
+				<div id="somed">
+					<a href="">Fb</a>
+					<a href="">Instagram</a>
+					<a href="">Twitter</a>
+					<a href="">Twich</a>
+					
+				</div>
+				<div id="altnav">
+					<a href="">Sobre nosotros</a>
+					<a href="">Políticas y Condiciones de uso</a>
+					<a href="contact_us.html">Contáctanos</a>
+				</div>
+				<div>
+					Powered by 	<a href="">Moonstruck Studios</a>
+				</div>
+			</footer>
+
+		</body>
+	</html>

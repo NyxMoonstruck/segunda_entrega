@@ -1,0 +1,34 @@
+
+
+/*BODY*/
+	
+
+/*MAIN*/
+
+
+ 
+
+h2, p {width: 100%;}
+
+label	{float: left;
+clear: both;}
+
+input {float:right;
+clear: both;}
+
+label, input:not (class="boton") { width: 25%;
+ }
+
+.boton { border-style: outset;
+	border-radius: 9px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;}
+
+.boton:hover { border-style: inset;
+	border-radius: 9px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;}
+
+
+/*RESPONSIVE*/
+

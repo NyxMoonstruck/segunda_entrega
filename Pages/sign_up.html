@@ -44,14 +44,18 @@
 				
 			</header>
 
-			<main>
-				<h2>Registrarse</h2> 
-				<p>Por favor, complete el formulario para poder registrarse en el sitio. </p>
+			<main id="formreg">
 				
+				<div>
+					<h2>Registrarse</h2> 
+					<p>Por favor, complete el formulario para poder registrarse en el sitio. </p>
+				</div>
+
 				<div class="form">
 					<form>
+						<div class="conform">
 						<div >
-							<label>Name</label>
+							<label>Nombre</label>
 							<input type="text" name="first_name" required="" maxlength="30" placeholder="Juan" autofocus="" autocomplete="">
 						</div> 
 
@@ -91,10 +95,11 @@
 						</div>
 						<br>
 
-						<div>
+						<div class="flexbot">
 						 	<input type="reset" name="reset" value="Resetear" class="boton"> 
 						 	<input type="submit" name="registrarse" value="Registrarse" class="boton">
 						</div>
+					</div>
 					</form>
 				</div>
 			</main>

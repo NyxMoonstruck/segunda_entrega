@@ -6,28 +6,39 @@
 /*MAIN*/
 
 
- 
+ /*Formulario de registro*/
 
-h2, p {width: 100%;}
+.form h2, p {width: 100%;}
 
-label	{float: left;
+.form label	{float: left;
 clear: both;}
 
-input {float:right;
+.form input:not(.boton) {float:right;
 clear: both;}
 
-label, input:not (class="boton") { width: 25%;
+.form label, input:not(.boton) { width: 25%;
  }
+.flexbot { display: flex;
+			justify-content: center;
+			align-content: center;
+			flex-flow:row wrap;
+			width: 100%;
+			}
+
+.confrom {height: 200px;}
 
 .boton { border-style: outset;
-	border-radius: 9px;
-	-moz-border-radius: 9px;
-	-webkit-border-radius: 9px;}
+		border-radius: 9px;
+		-moz-border-radius: 9px;
+		-webkit-border-radius: 9px;
+	}
 
 .boton:hover { border-style: inset;
 	border-radius: 9px;
 	-moz-border-radius: 9px;
 	-webkit-border-radius: 9px;}
+
+/*Formulario de Contacto*/
 
 
 /*RESPONSIVE*/

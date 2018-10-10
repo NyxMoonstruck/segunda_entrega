@@ -10,13 +10,14 @@
 
 .regform h2, p {width: 100%;}
 
-.regform label	{float: left;
+.regform label:not(.sus)	{float: left;
 clear: both;}
 
-.regform input:not(.boton), select {float:right;
+.regform input:not(.boton, .sus), select {float:right;
 clear: both;}
 
 .regform label, .regform input:not(.boton), select{ width: 25%;
+	margin: 0.5%;
  }
 .flexbot { display: flex;
 			justify-content: center;
@@ -46,7 +47,31 @@ main#formconnect { height: 190px; }
 
 /*Formulario de Contacto*/
 
-div.forcontact:not(#enviar) {display: flex;
-				justify-content: space-around;}
+
+div.forcontact: {display: flex;
+				}
+
+
+#mensaje {display: flex;
+    	flex-direction: column;
+    	order: 2;
+    	margin: 1%;
+    	padding-left: 15%;
+    	width: 50%;}
+
+#texto {flex: 1;}
+
+.datos {display: flex;
+		flex-direction: column;
+	flex: 1; 
+    order: 1;
+float: left;
+margin: 1%;
+width: 30%}
+
+
+#enviar {
+		margin-left:  -70%;
+		margin-top: 5%}
 /*RESPONSIVE*/
 

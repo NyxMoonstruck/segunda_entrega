@@ -8,15 +8,15 @@
 
  /*Formulario de registro*/
 
-.form h2, p {width: 100%;}
+.regform h2, p {width: 100%;}
 
-.form label	{float: left;
+.regform label	{float: left;
 clear: both;}
 
-.form input:not(.boton) {float:right;
+.regform input:not(.boton), select {float:right;
 clear: both;}
 
-.form label, input:not(.boton) { width: 25%;
+.regform label, .regform input:not(.boton), select{ width: 25%;
  }
 .flexbot { display: flex;
 			justify-content: center;
@@ -38,8 +38,15 @@ clear: both;}
 	-moz-border-radius: 9px;
 	-webkit-border-radius: 9px;}
 
+
+/*formulario de ingreso*/
+
+main#formconnect { height: 190px; }
+
+
 /*Formulario de Contacto*/
 
-
+div.forcontact:not(#enviar) {display: flex;
+				justify-content: space-around;}
 /*RESPONSIVE*/
 

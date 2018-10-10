@@ -13,10 +13,6 @@ header { background-color: rgb( 0,0,0,0.95);
 	border-bottom:2px solid #071E5C;
 	}
 
-img.banner {
-			position: absolute;
-			z-index: 0;
-			width: 30%;}
 
 .sup {text-align: right;
 }

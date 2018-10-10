@@ -25,12 +25,11 @@
 					<a href="cart.html">Carro</a>
 				</div>
 
-				<div>
-					<a href="../index.html">
-						<img src="../Images/banner.png" class="banner">
-					</a>
-				
-					<h1 class="banner">E-Games</h1>
+				<!-- cabecera -->		
+				<div class="banner">
+		
+					<h1>Game Ark</h1>
+		
 				</div>
 
 				<!-- navegación simple al final del header-->
@@ -51,27 +50,36 @@
 					<p>Por favor, complete el formulario para poder registrarse en el sitio. </p>
 				</div>
 
-				<div class="form">
+				<div class="regform">
 					<form>
 						<div class="conform">
 						<div >
-							<label>Nombre</label>
+							<label for="first_name">Nombre</label>
 							<input type="text" name="first_name" required="" maxlength="30" placeholder="Juan" autofocus="" autocomplete="">
 						</div> 
 
 						<div>
-							<label>Apellido</label>
+							<label for="last_name">Apellido</label>
 							<input type="text" name="last_name" required="" maxlength="30" placeholder="Perez" autocomplete="">
 						</div>
 
 						<div>
-							<label>Nombre de Usuario</label>
+							<label for="Username">Nombre de Usuario</label>
 							 <input type="text" name="Username" required="" minlength="4" maxlength="24" placeholder="Juanpe02" pattern="[A-Za-z0-9]{4,24}">
 						 </div>
 
 						<div>
-							<label>Edad</label>
-							<input type="number" name="age" placeholder="25" maxlength="2" >	
+							<label for="birthdate">Fecha de naciemiento</label>
+							<input type="date" name="birthdate" placeholder="" >	
+						</div>
+
+						<div id="gender">
+							<label for="Gender">Sexo</label>
+							<select name="Gender">
+								<option value="F"> Mujer</option>
+								<option value="M"> Hombre</option>
+								<option value="Other"> Otro</option>
+							</select>
 						</div>
 
 						<div>

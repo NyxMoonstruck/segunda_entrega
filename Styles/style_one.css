@@ -5,20 +5,31 @@
 
 /*MAIN*/
 
+#formreg {    padding-top: 1%;
+    margin-top: 1%;
+}
+
 
  /*Formulario de registro*/
 
+
 .regform h2, p {width: 100%;}
 
-.regform label:not(.sus)	{float: left;
-clear: both;}
-
-.regform input:not(.boton, .sus), select {float:right;
-clear: both;}
+.regform label	{float: left;
+clear: both; 
+margin: 1%;
+}
 
 .regform label, .regform input:not(.boton), select{ width: 25%;
-	margin: 0.5%;
+	
  }
+
+.regform input:not(.boton,), select {
+	float:right;
+	clear: both;
+	margin-bottom: 3%;
+	padding: 3%;
+}
 .flexbot { display: flex;
 			justify-content: center;
 			align-content: center;
@@ -47,7 +58,7 @@ main#formconnect { height: 190px; }
 
 /*Formulario de Contacto*/
 
-
+#forcon { padding-top: 1%; }
 div.forcontact: {display: flex;
 				}
 
@@ -67,11 +78,11 @@ div.forcontact: {display: flex;
     order: 1;
 float: left;
 margin: 1%;
-width: 30%}
-
+width: 30%;
+height:	10%;}
 
 #enviar {
 		margin-left:  -70%;
-		margin-top: 5%}
+		margin-top: 5%;}
 /*RESPONSIVE*/
 

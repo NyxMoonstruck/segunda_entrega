@@ -6,9 +6,13 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta enctype="multipart/form-data">
 
-			<link rel="stylesheet" type="text/css" href="../Styles/style_base.css">
+			<!--CSS -->
 
+			<link rel="stylesheet" type="text/css" href="../Styles/style_base.css">
 			<link rel="stylesheet" type="text/css" href="../Styles/style_one.css">
+
+				<!-- Fonts -->
+			<link href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Aldrich" rel="stylesheet">
 
 
 
@@ -53,17 +57,17 @@
 				<div class="regform">
 					<form>
 						<div class="conform">
-						<div >
+						<div class="regform">
 							<label for="first_name">Nombre</label>
 							<input type="text" name="first_name" required="" maxlength="30" placeholder="Juan" autofocus="" autocomplete="">
 						</div> 
 
-						<div>
+						<div class="regform">
 							<label for="last_name">Apellido</label>
 							<input type="text" name="last_name" required="" maxlength="30" placeholder="Perez" autocomplete="">
 						</div>
 
-						<div>
+						<div class="regform">
 							<label for="Username">Nombre de Usuario</label>
 							 <input type="text" name="Username" required="" minlength="4" maxlength="24" placeholder="Juanpe02" pattern="[A-Za-z0-9]{4,24}">
 						 </div>
@@ -82,28 +86,28 @@
 							</select>
 						</div>
 
-						<div>
+						<div class="regform">
 							<label>País</label>
 							<input type="text" name="country" placeholder="Ecuador">
 						</div>
 
-						<div>
+						<div class="regform">
 							<label>E-mail</label>
 							<input type="email" name="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="" placeholder="Juan.Perez@gmail.com" >
 						</div>
 
-						<div>
+						<div class="regform">
 							<label>Ingrese una contraseña</label>
 							<input type="password" name="password" required="" pattern="[A-Za-z0-9]{8,24}" minlength="8" maxlength="24" placeholder="*************" data-toggle="tooltip" title="Ingrese 8 a 24 caracteres alfa numéricos">
 						</div>
 
-						<div>
+						<div class="regform">
 							<label>Confirme su contraseña</label>
 							<input type="password" name="conf_password" required="" pattern="[A-Za-z0-9]{8,24}" minlength="8" maxlength="24" placeholder="*************" data-toggle="tooltip" title="Las contraseñas deben coincidir">
 						</div>
 
-						<div class="sus">
-							<label for="suscibe" class="sus">Suscribirse a nuestro Newsletter</label>
+						<div class="sus>
+							<label for="suscibe" class="sus">Desea recibir nuestro Newsletter</label>
 							<input type="checkbox" name="suscribe" value="Yes" class="sus">
 						</div>
 						<br>

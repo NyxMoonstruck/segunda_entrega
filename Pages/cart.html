@@ -11,6 +11,11 @@
 
 				<!-- Fonts -->
 			<link href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Aldrich" rel="stylesheet">
+
+			<!-- Icons -->
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
 	</head>
 	<body>
 		<header>
@@ -18,7 +23,7 @@
 				<div class="sup">
 					<a href="sign_up.html"><button class="supbutton">Registrarse</button></a>
 					<a href="log_in.html"><button class="supbutton">Conectarse</button></a>
-					<a href="cart.html"><button class="supbutton">Carro</button></a>
+					<a href="cart.html"><button class="supbutton"><i class="fas fa-shopping-cart"></i></button></a>
 				</div>
 
 				<!-- cabecera -->		
@@ -35,7 +40,7 @@
 					<a href="game_list.html"><button class="sinavbutton">Catálogo</button></a>
 				</nav>
 		</header>
-		<main>
+		<main id="maincart">
 			
 			<table>
 				<tr> <th>Artículo</th> <th>Precio</th></tr>
@@ -43,7 +48,10 @@
 				<tr><td>Juego 2</td> <td>$XX.XX</td></tr>
 				<tr><td><strong>Total</strong></td> <td>$XX.XX</td></tr>
 			</table>
-			<button type="submit">Comprar</button>
+		
+			<div id="buy">
+			<button type="submit" class="boton">Comprar</button>
+		</div>
 		</main>
 		<footer>
 			<div id="somed">

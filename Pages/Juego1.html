@@ -4,15 +4,20 @@
 		<title>Juego 1</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+			<!--CSS-->
 		<link rel="stylesheet" type="text/css" href="../Styles/style_base.css">
 
 		<link rel="stylesheet" type="text/css" href="../Styles/style_games.css">
 
-			<link rel="stylesheet" type="text/css" href="../Styles/style_one.css">
+		<link rel="stylesheet" type="text/css" href="../Styles/style_one.css">
 
-				<!-- Fonts -->
-			<link href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Aldrich" rel="stylesheet">
+			<!--Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Aldrich" rel="stylesheet">
+
+		<!--Icons-->
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	</head>
 	
 	<body>
@@ -41,37 +46,27 @@
 		</header>
 
 		<main>
-			<h2>Juego 1</h2>
-
-			<video> Video del Juego en cuestión</video>
-
-			<!-- The grid: four columns -->
-			<div class="row">
-  				<div class="column">
-   				 	<img src="https://via.placeholder.com/650x480" alt="Imagen1" onclick="openImg(this);">
-  				</div>
-  				<div class="column">
-            		<img src="https://via.placeholder.com/650x480" alt="Imagen2" onclick="openImg(this);">
-           		</div>
- 			 	<div class="column">
-    				<img src="https://via.placeholder.com/650x480" alt="Imagen3" onclick="openImg(this);">
-  				</div>
-  				<div class="column">
-    				<img src="https://via.placeholder.com/650x480" alt="Imagen4" onclick="openImg(this);">
-  				</div>
+			<div>
+			<h2>Diablo III</h2>
+			<section>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</section>
 			</div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/K-ZA7NLSRhg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-			<!-- The expanding image container -->
-			<div class="container">
- 			 <!-- Close the image -->
-  			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			
 
-  			<!-- Expanded image -->
-  			<img id="expandedImg" style="width:100%">
 
-  			<!-- Image text -->
-  			<div id="imgtext"></div>
-			</div>
+			
 
 			<div>  
 
@@ -97,20 +92,43 @@
 
 					<p>$ xx.xx</p>
 
-					<section>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-					</section>
+					
 				</article>
-				<button type="submit" >Comprar</button>
+
+				<div class="slider">
+				<div class="slide"	id="slide-1">
+					<img src="../Images/diablo3.jpg">
+				</div>
+
+				<div class="slide"	id="slide-2">
+					<img src="https://blzmedia-a.akamaihd.net/d3/media/screenshots/interface-heroselect-large.jpg">
+				</div>
+				
+				<div class="slide"	id="slide-3">
+					<img src="https://blzmedia-a.akamaihd.net/d3/media/screenshots/console-ps4-01-large.jpg">
+				</div>
+				
+				<div class="slide"	id="slide-4">
+					<img src="https://blzmedia-a.akamaihd.net/d3/media/screenshots/reaper-of-souls-06-large.jpg">
+				</div>
+				
+				<div class="slide"	id="slide-5">
+					<img src="https://blzmedia-a.akamaihd.net/d3/media/screenshots/reaper-of-souls-04-large.jpg">
+				</div>
+				
+				<div class="slide"	id="slide-6">
+					<img src="https://blzmedia-a.akamaihd.net/d3/media/screenshots/interface-mainscreen-basic-party-large.jpg">
+				</div>
+				
+				<div class="slide"	id="slide-7">
+					<img src="https://blzmedia-a.akamaihd.net/d3/media/screenshots/wizard-027-large.jpg">
+				</div>
+
+
+
+
+		</div>
+				<a href="cart.html"><button type="submit" class="boton">Comprar</button></a>
 			</div>
 		</main>
 
